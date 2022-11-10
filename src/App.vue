@@ -6,6 +6,4 @@ import TodoApp from "./components/TodoApp.vue";
   <TodoApp />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

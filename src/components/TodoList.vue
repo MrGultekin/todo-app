@@ -1,8 +1,4 @@
-<script setup>
-export default {
-  name: "TodoApp",
-};
-</script>
+<script setup></script>
 
 <template>
   <div></div>
