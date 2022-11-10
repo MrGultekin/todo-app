@@ -4,11 +4,18 @@ import TodoList from "./TodoList.vue";
 </script>
 
 <template>
-  <div>
+  <div class="todo-app" >
     <h1>To Do Listesi</h1>
     <TodoForm></TodoForm>
     <TodoList></TodoList>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.todo-app {
+  padding: 5vh;
+  min-height: 100vh;
+  width: 30vw;
+  background-color: #f7f9fc;
+}
+</style>
