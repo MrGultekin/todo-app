@@ -18,7 +18,7 @@ const addItemAndClear = (item) => {
   <div>
     <form @submit.prevent="addItemAndClear(todo)">
       <input v-model="todo" type="text" />
-      <button>Click to Add</button>
+      <button>Add</button>
     </form>
   </div>
 </template>
